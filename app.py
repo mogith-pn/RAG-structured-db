@@ -10,14 +10,10 @@ from utils.utils import (connect_db, init_db,
 
 
 st.set_page_config(layout="wide")
-ClarifaiStreamlitCSS.insert_default_css(st)
 
 st.title("Chat with your Structured data 📚")
 st.write("##")
 config_type=st.checkbox("Advanced configuration", key="config_type")
-
-with open('./styles.css') as f:
-  st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
   
 with st.sidebar:
   with st.form(key="DB_config"):
