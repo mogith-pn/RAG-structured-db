@@ -1,0 +1,6 @@
+clarifai==10.2.0
+langchain==0.1.14
+streamlit==1.24.0
+psycopg2==2.9.9
+langchain-experimental==0.0.56
+SQLAlchemy==2.0.29
